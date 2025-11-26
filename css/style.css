@@ -1,33 +1,43 @@
 #wrapper {
-    color: blueviolet;
+    background-color: #ff4081;
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 10vh 5vh 100vh;
+    grid-template-columns: 150px 5fr;
+    grid-template-rows: 150px 5vh 100vh 10vh;
     grid-template-areas: 
     " log hd "
-    " ' nav"
+    " . nav"
     " mn mn"
-    
+    "ft ft"
     ;
+    margin: 10px;
+    
+}
 
+body{
+    background-color: #ff4081;
 }
 
 header {
-color: aqua;
+background-color: aqua;
 grid-area: hd;
 }
 
 main {
-    color: brown;
+    background-color: brown;
     grid-area: mn;
 }
 
 #logga {
     grid-area: log;
-    color: blanchedalmond;
+    background-color: blanchedalmond;
 }
 
 nav {
     grid-area: nav;
-    color: coral;
+    background-color: coral;
+}
+
+footer {
+    background-color: darkslategray;
+    grid-area: ft;
 }
