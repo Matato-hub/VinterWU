@@ -1,10 +1,12 @@
 #wrapper {
     color: blueviolet;
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 10vh 5vh 100vh;
     grid-template-areas: 
-    "   "
+    " log hd "
+    " ' nav"
+    " mn mn"
     
     ;
 
@@ -20,3 +22,12 @@ main {
     grid-area: mn;
 }
 
+#logga {
+    grid-area: log;
+    color: blanchedalmond;
+}
+
+nav {
+    grid-area: nav;
+    color: coral;
+}
