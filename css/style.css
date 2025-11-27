@@ -10,7 +10,18 @@
     "ft ft"
     ;
     margin: 10px;
-    
+}
+
+.nowrap {
+white-space: nowrap;
+}
+
+h1 {
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    display: inline-block;
 }
 
 body{
@@ -18,8 +29,14 @@ body{
 }
 
 header {
-background-color: aqua;
-grid-area: hd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    grid-area: hd;
+    margin-left: 10px;
+    align-content: center;
+    border-radius: 10px;
 }
 
 main {
@@ -35,9 +52,32 @@ main {
 nav {
     grid-area: nav;
     background-color: coral;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-content: space-evenly;
 }
 
 footer {
     background-color: darkslategray;
     grid-area: ft;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 2000,
+  'GRAD' 0,
+  'opsz' 24;
+  display: inline-block;
+  size: 500%;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Ribeye", serif;
+    font font-weight: 400;
 }
