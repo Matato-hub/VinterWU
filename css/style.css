@@ -37,22 +37,24 @@ header {
     margin-left: 10px;
     align-content: center;
     border-radius: 10px;
+    border-style: solid;
 }
 
 main {
     background-color: rgb(255, 255, 255);
     grid-area: mn;
     border-radius: 10px;
+    border-style: solid;
 }
 
 #logga {
     grid-area: log;
-    background-color: blanchedalmond;
+    background-color: #ffc6d9;
 }
 
 nav {
     grid-area: nav;
-    background-color: rgb(255, 218, 205);
+    background-color:#ffc6d9;
     margin-left: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -60,13 +62,17 @@ nav {
     border-bottom-left-radius: 10px;
     display: flex;
     justify-content: space-around;
+    border-top-style: none;
+    border-style: solid;
+    padding: 5px;
 }
 
 footer {
-    background-color: blanchedalmond;
+    background-color: #ffc6d9;
     grid-area: ft;
     margin-top: 10px;
     border-radius: 10px;
+    border-style: solid;
 }
 
 .material-symbols-outlined {
@@ -87,3 +93,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color: #ff4081;
+}
+
+input [type=text] {
+    color: #ff4081;
+}
