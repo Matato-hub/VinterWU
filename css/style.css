@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     grid-area: hd;
     margin-left: 10px;
     align-content: center;
@@ -40,8 +40,9 @@ header {
 }
 
 main {
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     grid-area: mn;
+    border-radius: 10px;
 }
 
 #logga {
@@ -51,19 +52,21 @@ main {
 
 nav {
     grid-area: nav;
-    background-color: coral;
+    background-color: rgb(255, 218, 205);
     margin-left: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     display: flex;
-    align-content: space-evenly;
+    justify-content: space-around;
 }
 
 footer {
-    background-color: darkslategray;
+    background-color: blanchedalmond;
     grid-area: ft;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 .material-symbols-outlined {
@@ -74,10 +77,13 @@ footer {
   'opsz' 24;
   display: inline-block;
   size: 500%;
+  color: #ff4081;
 }
 
 a {
     text-decoration: none;
     font-family: "Ribeye", serif;
-    font font-weight: 400;
+    font-weight: 400;
+    color: black;
 }
+
