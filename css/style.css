@@ -45,6 +45,8 @@ main {
     grid-area: mn;
     border-radius: 10px;
     border-style: solid;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #logga {
@@ -62,7 +64,7 @@ nav {
     border-bottom-left-radius: 10px;
     display: flex;
     justify-content: space-around;
-    border-top-style: none;
+    border-top-style: 0px;
     border-style: solid;
     padding: 5px;
 }
@@ -73,6 +75,9 @@ footer {
     margin-top: 10px;
     border-radius: 10px;
     border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .material-symbols-outlined {
@@ -99,4 +104,25 @@ a:hover {
 
 input [type=text] {
     color: #ff4081;
+}
+
+.foot {
+    font-family: "Ribeye", serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: "Ribeye", serif;
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    font-family: "Teachers", sans-serif;
+}
+
+.top {
+    margin-top: 40px;
 }
