@@ -131,3 +131,9 @@ p {
 .pink{
     width: 50vw;
 }
+
+.imgovertext {
+        position: relative;
+        text-align: center;
+    display: flex;
+}
