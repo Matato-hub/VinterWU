@@ -51,7 +51,7 @@ main {
 
 #logga {
     grid-area: log;
-    background-color: #ffc6d9;
+    background-color: #ff4081;
 }
 
 nav {
@@ -117,11 +117,13 @@ h2 {
     margin: 20px;
     text-align: center;
     margin-top: 20px;
+    font-weight: 400;
 }
 
 p {
     font-size: 25px;
     font-family: "Teachers", sans-serif;
+    margin-top: 10px;
 }
 
 .top {
@@ -136,4 +138,33 @@ p {
         position: relative;
         text-align: center;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+img{
+    width: 25vw;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#special-wrapper {
+    background-color: #ff4081;
+    display: grid;
+    grid-template-columns: 150px 5fr;
+    grid-template-rows: 150px 5vh 180vh 10vh;
+    grid-template-areas: 
+    " log hd "
+    " . nav"
+    " mn mn"
+    "ft ft"
+    ;
+    margin: 10px;
 }
