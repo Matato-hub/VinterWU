@@ -52,6 +52,7 @@ main {
 #logga {
     grid-area: log;
     background-color: #ff4081;
+    margin-right: 10px;
 }
 
 nav {
@@ -167,4 +168,9 @@ img{
     "ft ft"
     ;
     margin: 10px;
+}
+
+#loggo {
+    width: 100%;
+    border-radius: 100%;
 }
