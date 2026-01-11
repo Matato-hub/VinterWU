@@ -180,5 +180,24 @@ img {
 }
 
 .marketdiv {
+    display: grid;
     background-color: #ffc6d9;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 25% 1fr;
+    grid-template-areas: 
+    "mimg mh2"
+    "mimg marp"
+    ;
+}
+
+.marketimg {
+    grid-area: mimg;
+}
+
+.marketh2 {
+    grid-area: mh2;
+}
+
+.marketp {
+    grid-area: marp;
 }
